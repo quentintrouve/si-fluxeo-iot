@@ -1,12 +1,33 @@
 # Fluxeo - Smart Building and IOT
 
+## 🎓 Disclaimer
+
+This site has been created for educational purposes as part of the Bachelor's curriculum of the HETIC school. 
+**This proof of concept was made using demo data that is no longer accessible. This data was provided by intelligent sensors that simulated the detection of people in a building. So the application is currently out of service.**
+
 
 ## 🌐 Project Overview
 <p align="center">
-  <img src="screenshot.gif">
+  <img width="600" src="public/fluxeo-1.png">
+</p>
+<p align="left">
+  <img width="600" src="public/fluxeo-2.png">
+</p>
+<p align="right">
+  <img width="600" src="public/flexeo-3.png">
+</p>
+<p>
+  <p>
+    <img align="left" nwidth="600" src="public/fluxeo-4.png">
+  </p>
+  <p>
+    <img align="right" width="600" src="public/fluxeo-5.png">
+  </p>
 </p>
 
-**Allo Barbylone - Streaming Website** is a streaming website for movies and tv shows. It's a Next.js project bootstrapped with `create-next-app` and using TypeScript. It's deployed on Vercel Platform. All data was fetched with [themoviedb Api](https://www.themoviedb.org/documentation/api).
+
+
+**Fluxeo** is a streaming website for movies and tv shows. It's a Next.js project bootstrapped with `create-next-app` and using TypeScript. It's deployed on Vercel Platform. All data was fetched with [themoviedb Api](https://www.themoviedb.org/documentation/api).
 
 Time to dev: **5 days**
 
