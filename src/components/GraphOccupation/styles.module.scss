@@ -1,0 +1,64 @@
+@import "styles/theme";
+
+
+.headline {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+$cirlceSize: 160px;
+
+.circleBig {
+  position: relative;
+  margin-top: 20px;
+
+  svg {
+    stroke: map-get($primary-colors, "coral");
+  }
+
+  .bg {
+    fill: none;
+    stroke-width: 15px;
+    opacity: 0.4;
+  }
+
+  circle {
+    position: absolute;
+    top: 0;
+  }
+
+  .progress {
+    fill: none;
+    stroke-width: 15px;
+    stroke-linecap: round;
+    stroke-dasharray: 380;
+    stroke-dashoffset: 10;
+    transform-origin: 50% 50%;
+    transition: stroke-dashoffset 1.5s ease-in;
+    position: absolute;
+    transform: rotate(-90deg);     
+  }
+
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 24px;
+    color: map-get($primary-colors, "coral");
+    font-size: 30px;
+    font-family: 'HelveticaNeueRegular';
+  }
+
+  .text .small {
+    font-size: 9px;
+  }
+}

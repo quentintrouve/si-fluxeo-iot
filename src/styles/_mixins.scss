@@ -1,0 +1,10 @@
+// Mixin to generate mobile-first repsonsive breakpoints
+@mixin from($screenName) {
+  @media screen and (min-width: map-get($screens, $screenName)) {
+    @content;
+  }
+}
+
+@mixin shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+}

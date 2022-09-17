@@ -1,0 +1,107 @@
+@import "styles/theme";
+
+.card {
+  background: map-get($primary-colors, "white");
+  @include shadow;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  .headList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .title {
+    //border-bottom: 1px solid map-get($neutral-colors, "athens-gray-1");
+    font-size: 16px;
+    color: map-get($neutral-colors, "bombay");
+    top: 3.5rem;
+    width: auto;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 16px;
+  }
+
+  .select {
+    margin-bottom: 16px;
+    border: none;
+    outline: none;
+    border: 2px solid map-get($neutral-colors, "bombay");
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: map-get($neutral-colors, "bombay");
+  }
+  .headListSpearation {
+    border: none;
+    border-bottom: 1px solid map-get($neutral-colors, "athens-gray-1");
+    width: 100%;
+  }
+}
+
+.list {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  overflow-y: scroll;
+  color: map-get($neutral-colors, "bombay");
+}
+
+.list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.list::-webkit-scrollbar-track {
+  background: map-get($neutral-colors, "athens-gray");
+  border-radius: 10px;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background: map-get($neutral-colors, "athens-gray-1");
+  border-radius: 10px;
+}
+
+.list::-webkit-scrollbar-thumb:hover {
+  background: map-get($neutral-colors, "bombay");
+  border-radius: 10px;
+}
+
+.list::-webkit-scrollbar-thumb:active {
+  background: map-get($neutral-colors, "shuttle-gray");
+  border-radius: 10px;
+}
+
+.employees {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.employee {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 1.2rem 0;
+
+  @include from("m"){
+    padding: 0.8rem 0;
+  }
+  &:hover {
+    color: map-get($primary-colors, "coral");
+  }
+
+  .service {
+    text-align: right;
+  }
+}

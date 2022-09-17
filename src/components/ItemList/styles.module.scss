@@ -1,0 +1,42 @@
+@import "styles/theme";
+
+.item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.chevronWrapper {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  border: 1px solid map-get($neutral-colors, "athens-gray");
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.chevronWrapperOpen {
+  transform: rotate(90deg);
+}
+.itemName {
+  font-family: 'HelveticaNeueRegular';
+  font-size: 1.7rem;
+  color: map-get($neutral-colors, "shuttle-gray");
+  padding: 3px 10px;
+}
+.itemName:hover {
+  color: map-get($neutral-colors, "bright-gray");
+}
+.itemName::first-letter {
+  text-transform: uppercase;
+}
+.itemNameSelected {
+  border-radius: 20px;
+  color: map-get($neutral-colors, "white");
+  background-color:  map-get($primary-colors, "coral");
+}
+.itemNameSelected:hover {
+  color: map-get($neutral-colors, "white");
+}
+
