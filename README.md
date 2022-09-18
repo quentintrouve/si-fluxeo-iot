@@ -25,7 +25,7 @@ Time to dev: **8 days**
 ### Live demo
 
 Website is deployed [here](https://fluxeo.vercel.app/).(🚧)\
-Mobile Prototype is [here](https://www.figma.com/proto/NwgiGn4kpUHqgpgCQ47lzQ/IOT?page-id=271%3A6733&node-id=271%3A8676&viewport=789%2C78%2C0.31785428524017334&scaling=scale-down)
+Mobile Prototype is [here](https://www.figma.com/proto/NwgiGn4kpUHqgpgCQ47lzQ/IOT?embed_host=share&kind=&node-id=271%3A8676&page-id=271%3A6733&scaling=scale-down&viewport=789%2C78%2C0.31785428524017334)
 
 ### Installing
 
